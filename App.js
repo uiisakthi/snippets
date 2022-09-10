@@ -7,12 +7,12 @@ import React from 'react';
 import type {Node} from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
 
-import WhatsappMsg from './app/components/WhatsappMsg';
+import Message from './app/snippets/whatsapp/Message';
 
 const App: () => Node = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <WhatsappMsg />
+      <Message />
     </SafeAreaView>
   );
 };
